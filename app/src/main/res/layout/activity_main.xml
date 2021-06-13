@@ -32,7 +32,7 @@
 
     <ToggleButton
         android:id="@+id/toggleButton1"
-        android:layout_width="385dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/togglebutton" />
 </LinearLayout>
