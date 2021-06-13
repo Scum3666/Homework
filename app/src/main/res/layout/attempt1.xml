@@ -42,5 +42,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="103dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        android:inputType="time"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
