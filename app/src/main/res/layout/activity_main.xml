@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+    <Button android:textColor="@color/teal_200"
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/button" />
+
+    <TextView android:textColor="@color/purple_500"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <Switch android:fontFamily="sans-serif-condensed-light"
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch1"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox android:textSize="50dp"
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton" />
+</LinearLayout>
